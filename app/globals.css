@@ -74,3 +74,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+.hero{
+  background: rgb(187,134,254);
+  background: radial-gradient(circle, rgba(187,134,254,1) 0%, rgba(245,245,245,1) 100%);
+}
