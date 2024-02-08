@@ -187,7 +187,7 @@ export default function Footer() {
               </a>
             ))}
           </div>
-          <p className="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
+          <p className="mt-8 text-xs leading-5 text-gray-600 md:order-1 md:mt-0">
             &copy; 2024 Washington Youth Alliance. All rights reserved.
           </p>
         </div>

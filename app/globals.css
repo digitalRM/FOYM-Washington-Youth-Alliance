@@ -75,7 +75,19 @@
   }
 }
 
+
+
+.heroNew{
+  /* filter: contrast(110%) brightness(100%); */
+  background: 
+	radial-gradient(circle at 0% 0%, rgba(28,46,130,1), rgba(12,66,135,0.39)),
+  radial-gradient(circle at 200% 200%, #A769FE23, #95B7E423),
+	url("data:image/svg+xml,%3Csvg viewBox='0 0 1000 1000' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
 .hero{
-  background: rgb(187,134,254);
-  background: radial-gradient(circle, rgba(187,134,254,1) 0%, rgba(245,245,245,1) 100%);
+  filter: blur(4px);
+  background: 
+  radial-gradient(52% 79.25% at 20.74% -11.43%, rgba(167, 105, 254, 0.50) 0%, rgba(167, 105, 254, 0.28) 52.5%, rgba(167, 105, 254, 0.00) 100%), radial-gradient(29.19% 59.21% at 9.44% 11.06%, rgba(167, 105, 254, 0.50) 0%, rgba(167, 105, 254, 0.28) 52.5%, rgba(167, 105, 254, 0.00) 100%), radial-gradient(31.33% 98.22% at -5.92% 77.75%, rgba(149, 183, 228, 0.50) 0%, rgba(149, 183, 228, 0.28) 52.5%, rgba(149, 183, 228, 0.00) 100%), linear-gradient(250deg, #990b36 8.02%, #750b6c 101.54%);
+
 }
