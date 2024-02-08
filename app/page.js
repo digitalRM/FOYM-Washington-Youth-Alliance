@@ -39,9 +39,7 @@ export default function Home() {
     <div className="flex-col justify-center flex w-screen overflow-x-hidden scroll-smooth">  
       <Hero />
       <Bento />
-      <div className="flex justify-center bg-[url('/wall-2.png')] bg-cover bg-right bg-no-repeat shadow-white">
-        <Info />
-      </div>
+      <Info />
       <Footer />
     </div>
   );
