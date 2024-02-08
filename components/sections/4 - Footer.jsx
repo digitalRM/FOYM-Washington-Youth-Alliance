@@ -99,7 +99,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <img
-            className="h-28"
+            className="h-24"
             src="/wa-logo.png"
             alt="Company name"
           />
@@ -171,7 +171,7 @@ export default function Footer() {
             <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
               <button
                 type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-gradient-to-br from-[#7268E7] to-[#0C4287] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="flex w-full items-center justify-center rounded-md bg-gradient-to-br from-[#7268E7] to-[#0C4287] px-3 py-2 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#0C4287]"
               >
                 Subscribe
               </button>
