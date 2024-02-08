@@ -37,10 +37,7 @@ const timeline = [
 export default function Home() {
   return (
     <div className="flex-col justify-center flex w-screen overflow-x-hidden scroll-smooth">  
-      <div className="relative justify-center max-h-screen flex items-center overflow-hidden">
-        <Hero />
-        <div className="w-full h-8 bg-neutral-100 -mb-0.5 rounded-t-[20px] bottom-0 absolute z-20" />
-      </div>
+      <Hero />
       <Bento />
       <div className="flex justify-center bg-[url('/wall-2.png')] bg-cover bg-right bg-no-repeat shadow-white">
         <Info />
