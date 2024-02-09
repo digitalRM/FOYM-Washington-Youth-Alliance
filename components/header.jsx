@@ -14,7 +14,7 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="z-[3] relative">
+    <header className="z-[3] relative  rounded-b-3xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Washington Youth Alliance</span>
