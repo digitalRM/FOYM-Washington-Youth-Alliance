@@ -1,6 +1,7 @@
 'use server'
 
 import Image from "next/image"
+import BentoFlip from "../bentoFlip"
 
 const timeline = [
   {
@@ -44,10 +45,7 @@ export default async function Bento() {
         <h1 className="text-xl font-semibold leading-10 py-6 tracking-tight text-blue-950 sm:text-xl sm:leading-none md:text-2xl">Our Goals For 2024</h1>
         <div className="w-full h-fit grid sm:grid-cols-2 grid-cols-1 md:grid-cols-4 grid-rows-1 gap-2 max-w-7xl">
           {timeline.map((item) => (
-            <div key={item.name} className="col-span-1 row-span-1 aspect-square w-full bg-white rounded-xl shadow-lg p-4 flex flex-col justify-end bg-cover bg-center relative hover:-translate-y-2 transition hover:shadow-xl">
-              <p className=" text-lg font-semibold leading-8 tracking-tight text-white z-[1]">{item.name}</p>
-              <Image quality={90} src={item.image} alt={item.name} width="266" height="266" className="absolute inset-0 w-full h-full object-cover rounded-xl z-0" />
-            </div>
+            <BentoFlip name={item.name} description={item.description} image={item.image} />
           ))}
         </div>
       </div>
