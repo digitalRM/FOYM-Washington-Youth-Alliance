@@ -18,7 +18,7 @@ export default function Header() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <a href="/" className="-m-1.5 p-1.5">
           <span className="sr-only">Washington Youth Alliance</span>
-          <img className="h-20 w-auto brightness-0" src="/wa-logo-white.png" alt="Washington Youth Alliance Logo" />
+          <img className="h-14 md:h-20 w-auto brightness-0" src="/wa-logo-white.png" alt="Washington Youth Alliance Logo" />
         </a>
         <div className="flex lg:hidden">
           <button

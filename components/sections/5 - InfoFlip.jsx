@@ -1,5 +1,7 @@
 'use server'
 
+import { bricolage_grotesque } from "@/components/briFont"
+
 export default async function InfoFlip() {
   return (
     <div className="flex justify-center bg-[url('/wall-3.png')] bg-cover bg-left bg-no-repeat shadow-white">
@@ -20,9 +22,10 @@ export default async function InfoFlip() {
                 <img src='https://images.squarespace-cdn.com/content/v1/64ab1acccb2bd91641990cff/0f3af9f3-f981-4729-954f-19516d3f2ace/Chetan+and+Inslee.png?format=2500w' alt='card1' className='w-full h-full object-cover rounded-xl'/>
               </div>
             </div>
-            <div className="lg:pr-8 lg:pt-4 ml-4">
+            <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <p className="mt-2 text-3xl font-semibold tracking-tight text-white sm:text-4xl">For Youth, By Youth.</p>
+                <p className="mt-2 text-2xl sm:text-3xl font-semibold tracking-tight text-white md:text-4xl">
+                  <span className={bricolage_grotesque.className}>Igniting Change</span></p>
                 <p className="mt-6 text-[18px] text-neutral-200">
                   In 2022 Chetan Soni helped found the Seattle Student Union (SSU), securing political and grassroots victories for his generation in Seattle and in Olympia. 
                 </p>

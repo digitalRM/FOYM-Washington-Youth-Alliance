@@ -38,7 +38,9 @@ const timeline = [
 export default function Home() {
   return (
     <div className="flex-col justify-center flex w-screen overflow-x-hidden scroll-smooth">  
-      <Hero />
+      <div className=" min-h-screen h-full max-h-[1500px]">
+        <Hero />
+      </div>
       <InfoFlip />
       <Bento />
       <Info />
