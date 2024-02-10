@@ -13,11 +13,11 @@ export default async function Hero() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
             <div className="flex">
               <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                <span className="font-semibold text-indigo-600">We’re hiring</span>
+                <span className="font-semibold text-gray-900 bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]">Bill Tracker</span><span className="-ml-2.5">🎉</span>
                 <span className="h-4 w-px bg-gray-900/10" aria-hidden="true" />
                 <a href="#" className="flex items-center gap-x-1">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  See open positions
+                  View our new tool!
                 </a>
               </div> 
             </div>
