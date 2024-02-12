@@ -23,9 +23,9 @@ export default async function Hero() {
                 </a>
               </div> 
             </div>
-            <h1 className="mt-10 max-w-[620px] text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7] py-1">
+            <h1 className="mt-10 max-w-[620px] text-3xl md:text-[58px] sm:text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7] py-1">
               <span className={bricolage_grotesque.className}>
-              Fighting for the youth of Washington State.
+              Fighting For the Youth of Washington State.
               </span>
             </h1>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600  lg:max-w-[600px]">
