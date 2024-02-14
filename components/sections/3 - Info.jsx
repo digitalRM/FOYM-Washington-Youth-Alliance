@@ -1,4 +1,5 @@
 import React from 'react'
+import { bricolage_grotesque } from '../briFont'
 
 const features = [
   {
@@ -26,7 +27,7 @@ export default function Info() {
           <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="lg:pr-8 lg:pt-4">
               <div className="lg:max-w-lg">
-                <p className="mt-2 text-3xl font-semibold tracking-tight text-white sm:text-4xl">For Youth, By Youth.</p>
+                <p className="mt-2 text-2xl sm:text-3xl font-semibold tracking-tight text-white md:text-4xl"><span className={bricolage_grotesque.className}>For Youth, By Youth. </span></p>
                 <p className="mt-6 text-[18px] text-neutral-200">
                   In 2022 Chetan Soni helped found the Seattle Student Union (SSU), securing political and grassroots victories for his generation in Seattle and in Olympia. 
                 </p>

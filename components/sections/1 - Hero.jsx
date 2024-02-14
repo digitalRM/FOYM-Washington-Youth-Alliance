@@ -2,10 +2,12 @@
 
 import Image from "next/image"
 import Header from "../header"
+import { bricolage_grotesque } from "@/components/briFont"
+
 
 export default async function Hero() {
   return (
-    <div className="relative justify-center flex items-center overflow-hidden">
+    <div className="relative justify-center h-fit flex items-center overflow-hidden">
       <div className="w-full h-full overflow-hidden relative  bg-cover">
         <Header />
         <div className="relative isolate">
@@ -13,27 +15,29 @@ export default async function Hero() {
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto -mt-24">
             <div className="flex">
               <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                <span className="font-semibold text-indigo-600">We’re hiring</span>
+                <span className="font-semibold text-gray-900 bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]">Bill Tracker</span><span className="-ml-2.5">🎉</span>
                 <span className="h-4 w-px bg-gray-900/10" aria-hidden="true" />
                 <a href="#" className="flex items-center gap-x-1">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  See open positions
+                  View our new tool!
                 </a>
               </div> 
             </div>
-            <h1 className="mt-10 max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7] py-1">
-              A better way to ship your projects
+            <h1 className="mt-10 max-w-[620px] text-3xl sm:text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7] py-1">
+              <span className={bricolage_grotesque.className}>
+              Fighting for the youth of Washington State.
+              </span>
             </h1>
-            <p className="mt-6 text-lg leading-8 text-gray-600  lg:max-w-[600px]">
+            <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600  lg:max-w-[600px]">
               Esse id magna consectetur fugiat non dolor in ad laboris magna laborum ea consequat. Nisi irure aliquip
               nisi adipisicing veniam voluptate id. In veniam incididunt ex veniam adipisicing sit.
             </p>
             <div className="flex flex-col sm:flex-row space-y-2 sm:gap-2 lg:items-center sm:space-y-0 mt-6">
-              <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white hover:bg-white/10 hover:border-white/10 transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] border border-white/15 backdrop-blur-xl">
+              <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] borderbackdrop-blur-xl">
                 Donate to AF
               </a>
-              <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white hover:bg-white/10 hover:border-white/10 transition bg-[#7268E7]/15 border border-white/15 backdrop-blur-xl">
-                Donate to Action Fund 
+              <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] border-neutral-200 transition bg-white/15 border border-white/15 backdrop-blur-xl shadow-sm">
+                Donate to Action Fund
               </a>
             </div>
           </div>

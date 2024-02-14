@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import BentoFlip from "../bentoFlip"
+import { bricolage_grotesque } from "../briFont"
 
 const timeline = [
   {
@@ -42,10 +43,10 @@ export default async function Bento() {
   return (
     <div className="py-0 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="text-xl font-semibold leading-10 py-6 tracking-tight text-blue-950 sm:text-xl sm:leading-none md:text-2xl">Our Goals For 2024</h1>
+        <h1 className="text-xl font-semibold leading-10 py-6 tracking-tight text-blue-950 sm:text-xl sm:leading-none md:text-2xl"><span className={bricolage_grotesque.className}>Our Goals For 2024</span></h1>
         <div className="w-full h-fit grid sm:grid-cols-2 grid-cols-1 md:grid-cols-4 grid-rows-1 gap-2 max-w-7xl">
           {timeline.map((item) => (
-            <BentoFlip name={item.name} description={item.description} image={item.image} />
+            <BentoFlip key={item.name}  name={item.name} description={item.description} image={item.image} />
           ))}
         </div>
       </div>
