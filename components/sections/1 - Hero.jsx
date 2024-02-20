@@ -40,7 +40,7 @@ export default async function Hero() {
                 Donate to Action Fund
               </a> 
             </div>
-          </div>
+          </div> 
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow relative">
           <svg width="100%" height="100%" className="blur-md" viewBox="0 0 517 846" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M304.499 80.5C116.999 169.5 73.9993 246.5 95.4993 271C116.999 295.5 550 304.5 393.5 449C237 593.5 -12.0007 548 132.499 627.5C248.099 691.1 409.999 742 476.499 759.5" stroke="url(#paint0_linear_1126_224)" strokeWidth={178} /> <defs> <linearGradient id="paint0_linear_1126_224" x1="282.761" y1="80.5" x2="282.761" y2="759.5" gradientUnits="userSpaceOnUse" > <stop stopColor="#14458F" /> <stop offset={1} stopColor="#5168E8" /> </linearGradient> </defs> </svg>
             <div className="absolute inset-0 flex items-center justify-center">
