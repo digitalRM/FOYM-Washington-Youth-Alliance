@@ -4,7 +4,6 @@ import Image from "next/image"
 import Header from "../header"
 import { bricolage_grotesque } from "@/components/briFont"
 
-
 export default async function Hero() {
   return (
     <div className="relative justify-center h-fit flex items-center overflow-hidden">
@@ -38,7 +37,7 @@ export default async function Hero() {
               </a>
               <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] border-neutral-200 transition bg-white/15 border border-white/15 backdrop-blur-xl shadow-sm">
                 Donate to Action Fund
-              </a> 
+              </a>  
             </div>
           </div> 
           <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow relative">
