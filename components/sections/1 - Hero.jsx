@@ -31,25 +31,36 @@ export default async function Hero() {
               Esse id magna consectetur fugiat non dolor in ad laboris magna laborum ea consequat. Nisi irure aliquip
               nisi adipisicing veniam voluptate id. In veniam incididunt ex veniam adipisicing sit.
             </p>
-            <div className="flex flex-col sm:flex-row space-y-2 sm:gap-2 lg:items-center sm:space-y-0 mt-6">
+            <div className="flex flex-col sm:flex-row space-y-2 sm:gap-2 lg:items-center sm:space-y-0 mt-6 z-[10]">
               <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] borderbackdrop-blur-xl">
-                Donate to AF
+                Learn More
               </a>
               <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] border-neutral-200 transition bg-white/15 border border-white/15 backdrop-blur-xl shadow-sm">
-                Donate to Action Fund
-              </a>  
+                Donate to Our Mission
+              </a>
             </div>
-          </div> 
-          <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow relative">
-          <svg width="100%" height="100%" className="blur-md" viewBox="0 0 517 846" fill="none" xmlns="http://www.w3.org/2000/svg" > <path d="M304.499 80.5C116.999 169.5 73.9993 246.5 95.4993 271C116.999 295.5 550 304.5 393.5 449C237 593.5 -12.0007 548 132.499 627.5C248.099 691.1 409.999 742 476.499 759.5" stroke="url(#paint0_linear_1126_224)" strokeWidth={178} /> <defs> <linearGradient id="paint0_linear_1126_224" x1="282.761" y1="80.5" x2="282.761" y2="759.5" gradientUnits="userSpaceOnUse" > <stop stopColor="#14458F" /> <stop offset={1} stopColor="#5168E8" /> </linearGradient> </defs> </svg>
+          </div>
+
+          <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow relative sm:w-[600px] lg:w-fit mx-auto">
+          <svg width="100%" height="100%" className="blur-md" viewBox="0 0 253 357"   fill="none"   xmlns="http://www.w3.org/2000/svg" >   <path     d="M118.356 25C299.995 119.094 4.5519 150.026 26.1355 162.951C47.7192 175.875 346.254 189.713 175.493 244.286C60.7184 280.966 78.7617 332 175.493 332"     stroke="url(#paint0_linear_1126_224)"     strokeWidth={49}     strokeLinecap="round"   />   <defs>     <linearGradient       id="paint0_linear_1126_224"       x1="101.843"       y1="13.4377"       x2="101.843"       y2="371.624"       gradientUnits="userSpaceOnUse"     >       <stop stopColor="#14458F" />       <stop offset={1} stopColor="#5168E8" />     </linearGradient>   </defs> </svg>
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-full h-full relative grid grid-cols-2 grid-rows-3 gap-3" >
-                <div className="aspect-square bg-white/60 shadow-lg border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 backdrop-blur-md z-[1]">
+              <div className="w-full h-full relative grid grid-cols-4 grid-rows-3 gap-3" >
+                <div className=" bg-white/60 shadow-lg col-span-3 border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 lg:-mt-12 -rotate-3  backdrop-blur-md z-[1]">
                   <Image src="/hero.jpg" alt="card1" height={500} width={500} className="w-full h-full object-cover rounded-lg" />
                 </div>
+                <div />
+                <div />
+                <div className=" bg-white/60 shadow-lg col-span-3 border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 lg:-mt-12 -rotate-3  backdrop-blur-md z-[1]">
+                  <Image src="/hero-photo2.avif" alt="card1" height={500} width={500} className="w-full h-full object-cover rounded-lg" />
+                </div>
+                <div className=" bg-white/60 shadow-lg col-span-3 border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 lg:-mt-8 -rotate-3  backdrop-blur-md z-[1]">
+                  <Image src="/photo-hero2.avif" alt="card1" height={500} width={500} className="w-full h-full object-cover rounded-lg" />
+                </div>
+
               </div>
             </div>
           </div>
+
         </div>
       </div>
       </div>
@@ -58,3 +69,4 @@ export default async function Hero() {
   )
 }
 
+<svg width="100%" height="100%" className="blur-md" viewBox="0 0 253 357"   fill="none"   xmlns="http://www.w3.org/2000/svg" >   <path     d="M118.356 25C299.995 119.094 4.5519 150.026 26.1355 162.951C47.7192 175.875 346.254 189.713 175.493 244.286C60.7184 280.966 78.7617 332 175.493 332"     stroke="url(#paint0_linear_1126_224)"     strokeWidth={49}     strokeLinecap="round"   />   <defs>     <linearGradient       id="paint0_linear_1126_224"       x1="101.843"       y1="13.4377"       x2="101.843"       y2="371.624"       gradientUnits="userSpaceOnUse"     >       <stop stopColor="#14458F" />       <stop offset={1} stopColor="#5168E8" />     </linearGradient>   </defs> </svg>
