@@ -5,8 +5,11 @@ import { Dialog } from '@headlessui/react'
 import { Menu, X } from 'lucide-react'
 
 const navigation = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '/' },
   { name: 'Contact', href: '#' },
+  { name: 'Team', href: '/team' },
+  { name: 'Action Fund', href: '#' },
+  { name: 'Chapters', href: '#' },
   { name: 'Bill Tracker', href: '#' },
 ]
 
@@ -15,8 +18,8 @@ export default function Header() {
 
   return (
     <header className="z-[3] relative  rounded-b-3xl">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
-        <a href="/" className="-m-1.5 p-1.5">
+      <nav className="mx-auto flex lg:max-w-7xl items-center justify-between p-6 lg:px-8 max-w-2xl" aria-label="Global">
+        <a href="/" className="flex lg:flex-1 -m-1.5 p-1.5">
           <span className="sr-only">Washington Youth Alliance</span>
           <img className="h-14 md:h-[4.5rem] w-auto brightness-0" src="/wa-logo-white.png" alt="Washington Youth Alliance Logo" />
         </a>
@@ -36,6 +39,11 @@ export default function Header() {
               {item.name}
             </a>
           ))}
+        </div>
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] backdrop-blur-xl border shadow-sm">
+          Donate to Action Fund
+        </a>
         </div>
       </nav>
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
