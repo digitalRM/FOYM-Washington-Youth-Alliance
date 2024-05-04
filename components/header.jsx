@@ -8,7 +8,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Contact', href: '#' },
   { name: 'Team', href: '/team' },
-  { name: 'Action Fund', href: '#' },
+  { name: 'Action Fund', href: '/action-fund' },
   { name: 'Chapters', href: '#' },
   { name: 'Bill Tracker', href: '#' },
 ]
