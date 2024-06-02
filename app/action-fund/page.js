@@ -77,15 +77,32 @@ export default function ActionFund() {
             </dl>
           </div>
           <div className="w-full h-full relative rounded-xl my-36">
-              <Image
-                src="/action-fund-2.png"
-                alt="Image of the white house in the US"
-                width={1280}
-                height={720}
-                objectFit="cover"
-                className="rounded-xl shadow-2xl"
-              />
+            <Image
+              src="/action-fund-2.png"
+              alt="Image of the white house in the US"
+              width={1280}
+              height={720}
+              objectFit="cover"
+              className="rounded-xl shadow-2xl"
+            />
+          </div>
+          <h1 className="text-4xl sm:text-5xl font-black text-center mb-24 tracking-tight md:text-5xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7] py-1">
+            <span className={bricolage_grotesque.className}>
+              What We Do
+            </span>
+          </h1>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12">
+            <div className="flex flex-col gap-4">
+              <p className="leading-8 text-gray-600">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Purus sit amet luctus venenatis lectus magna. Dictumst quisque sagittis purus sit. Rhoncus dolor purus non enim praesent elementum facilisis leo. Interdum consectetur libero id faucibus nisl tincidunt. Tellus id interdum velit laoreet id donec ultrices. Congue eu consequat ac felis. Nisi quis eleifend quam adipiscing. Aliquam id diam maecenas ultricies mi. Lacus vel facilisis volutpat est velit. Leo vel fringilla est ullamcorper eget nulla. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. 
+              </p>
             </div>
+            <div className="flex flex-col gap-4">
+              <p className="leading-8 text-gray-600">
+                Purus in mollis nunc sed id semper. Quis eleifend quam adipiscing vitae proin. In massa tempor nec feugiat nisl pretium. Nunc sed augue lacus viverra vitae congue eu consequat ac. Sed arcu non odio euismod lacinia at quis risus. Nibh sit amet commodo nulla facilisi nullam. Cras ornare arcu dui vivamus. Urna nunc id cursus metus aliquam. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Dui vivamus arcu felis bibendum ut. Dui ut ornare lectus sit amet est placerat. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. Commodo sed egestas egestas fringilla. Magna fermentum iaculis eu non diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus.
+              </p>
+            </div>
+          </div>
 
         </div>
       </div>
