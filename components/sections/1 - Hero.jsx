@@ -28,8 +28,9 @@ export default async function Hero() {
               </span>
             </h1>
             <p className="mt-6 text-base sm:text-lg leading-8 text-gray-600  lg:max-w-[600px]">
-              Esse id magna consectetur fugiat non dolor in ad laboris magna laborum ea consequat. Nisi irure aliquip
-              nisi adipisicing veniam voluptate id. In veniam incididunt ex veniam adipisicing sit.
+              We are dedicated to empowering youth across Washington State by fostering essential life
+              skills, promoting digital literacy, and preparing young people for their educational and career
+              futures.
             </p>
             <div className="flex flex-col sm:flex-row space-y-2 sm:gap-2 lg:items-center sm:space-y-0 mt-6 z-[10]">
               <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] borderbackdrop-blur-xl">

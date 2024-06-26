@@ -4,13 +4,25 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Menu, X } from 'lucide-react'
 
+import { bricolage_grotesque } from './briFont'
+
+import { Dialog as Dia } from '@/components/ui/dialog'
+import {
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "@/components/ui/dialog"
+
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'Team', href: '/team' },
+  // { name: 'Team', href: '/team' },
   { name: 'Action Fund', href: '/action-fund' },
-  { name: 'Chapters', href: '/chapters' },
+  // { name: 'Chapters', href: '/chapters' },
   { name: 'Bill Tracker', href: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false' },
-  { name: 'Contact', href: 'mailto:chetan@washingtonyouthalliance.org' },
+  // { name: 'Contact', href: 'mailto:chetan@washingtonyouthalliance.org' },
 ]
 
 export default function Header() {
@@ -39,6 +51,31 @@ export default function Header() {
               {item.name}
             </a>
           ))}
+            <Dia>
+              <DialogTrigger className="text-sm font-semibold leading-6 text-gray-900">
+                Contact
+              </DialogTrigger>
+            <DialogContent className="">
+              <DialogHeader>
+                <DialogTitle className={bricolage_grotesque.className}><span className='text-gray-900 text-2xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]'>Contact Us</span></DialogTitle>
+                <DialogDescription>
+                  We'll get back to you as soon as possible.
+                </DialogDescription>
+              </DialogHeader>
+
+            <form action='https://docs.google.com/forms/d/e/1FAIpQLSe24vTIf8SyTBDSs2FZq0wFHfIi3H4QlTEobUDSkU1J2_G-ZQ/formResponse' method='POST' target='hidden_iframe' className="flex flex-col gap-4">
+              <input name='entry.798380507' type="text" placeholder="Name" className="w-full p-2.5 mt- border border-gray-300 rounded-lg" />
+              <input name='entry.805260323' type="email" placeholder="Email" className="w-full p-2.5 mt- border border-gray-300 rounded-lg" />
+              <textarea name='entry.2116211502' placeholder="Message" className="w-full p-2.5 mt- border border-gray-300 rounded-lg" />
+              <DialogFooter>
+                <button className="mt-4 inline-flex items-center w-full justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] borderbackdrop-blur-xl">
+                  Send
+                </button>
+              </DialogFooter>
+            </form>
+                
+            </DialogContent>
+          </Dia>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
         <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] backdrop-blur-xl border shadow-sm">

@@ -5,34 +5,34 @@ import Footer from "@/components/sections/4 - Footer";
 
 const features = [
   {
-    name: 'Lorem ipsum dolor sit amet.',
+    name: 'Youth-Led Organization',
     description:
-      'Aut illo quae. Ut et harum ea animi natus. Culpa maiores et sed sint et magnam exercitationem quia. Ullam voluptas nihil vitae dicta molestiae et. Aliquid velit porro vero.',
+      'The Washington Youth Alliance is entirely youth-led, with board members and staff all under the age of 30. This dynamic ensures that the initiatives remain relevant and impactful for young peoplee',
   },
   {
-    name: 'Lorem ipsum dolor sit amet.',
+    name: 'Local Chapters',
     description:
-      'Mollitia delectus a omnis. Quae velit aliquid. Qui nulla maxime adipisci illo id molestiae. Cumque cum ut minus rerum architecto magnam consequatur. Quia quaerat minima.',
+      'Youth from ages 14-24 lead local city chapters across Washington State, making decisions aligned with the organization\'s vision and values. Each chapter can have a representative on the official board of directors, paired with an adult mentor',
   },
   {
-    name: 'Lorem ipsum dolor sit amet.',
+    name: 'Diverse Board',
     description:
-      'Aut repellendus et officiis dolor possimus. Deserunt velit quasi sunt fuga error labore quia ipsum. Commodi autem voluptatem nam. Quos voluptatem totam.',
+      'The board of directors is predominantly composed of BIPOC members and youth under the age of 25, ensuring diverse perspectives and strong advocacy for youth needs.',
   },
   {
-    name: 'Lorem ipsum dolor sit amet.',
+    name: 'Focus Areas',
     description:
-      'Magnam provident veritatis odit. Vitae eligendi repellat non. Eum fugit impedit veritatis ducimus. Non qui aspernatur laudantium modi. Praesentium rerum error deserunt harum.',
+      'Key focus areas include gun violence prevention, youth mental health, digital literacy, and career readiness, addressing both school-based and broader youth issues',
   },
   {
-    name: 'Lorem ipsum dolor sit amet.',
+    name: 'Racial Equity Commitment',
     description:
-      'Sit minus expedita quam in ullam molestiae dignissimos in harum. Tenetur dolorem iure. Non nesciunt dolorem veniam necessitatibus laboriosam voluptas perspiciatis error.',
+      'The organization is committed to racial equity, working to diversify staff and board members, and providing training on racial equity and implicit bias.',
   },
   {
-    name: 'Lorem ipsum dolor sit amet.',
+    name: 'Significant Achievements',
     description:
-      'Ipsa in earum deserunt aut. Quos minus aut animi et soluta. Ipsum dicta ut quia eius. Possimus reprehenderit iste aspernatur ut est velit consequatur distinctio.',
+      'Notable accomplishments include the successful passage of the assault weapons ban and securing over $30 million in statewide funding for youth mental health supports.',
   },
 ]
 
@@ -91,15 +91,15 @@ export default function ActionFund() {
               What We Do
             </span>
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-12">
+          <div className="grid grid-cols-1 gap-8 mt-12">
             <div className="flex flex-col gap-4">
               <p className="leading-8 text-gray-600">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam. Purus sit amet luctus venenatis lectus magna. Dictumst quisque sagittis purus sit. Rhoncus dolor purus non enim praesent elementum facilisis leo. Interdum consectetur libero id faucibus nisl tincidunt. Tellus id interdum velit laoreet id donec ultrices. Congue eu consequat ac felis. Nisi quis eleifend quam adipiscing. Aliquam id diam maecenas ultricies mi. Lacus vel facilisis volutpat est velit. Leo vel fringilla est ullamcorper eget nulla. In nulla posuere sollicitudin aliquam ultrices sagittis orci a scelerisque. 
+                The Washington Youth Alliance empowers youth across Washington State by fostering essential life skills, promoting digital literacy, and preparing young people for educational and career success. We center our mission around the creation of youth-led chapters that advocate for crucial societal issues, including mental health, while ensuring that young people are well-equipped for the technological and professional demands of the future. Through community engagement and strategic partnerships, we strive to build a supportive framework that enables every young person to succeed and lead in their communities. 
               </p>
             </div>
             <div className="flex flex-col gap-4">
               <p className="leading-8 text-gray-600">
-                Purus in mollis nunc sed id semper. Quis eleifend quam adipiscing vitae proin. In massa tempor nec feugiat nisl pretium. Nunc sed augue lacus viverra vitae congue eu consequat ac. Sed arcu non odio euismod lacinia at quis risus. Nibh sit amet commodo nulla facilisi nullam. Cras ornare arcu dui vivamus. Urna nunc id cursus metus aliquam. In egestas erat imperdiet sed euismod nisi porta lorem mollis. Dui vivamus arcu felis bibendum ut. Dui ut ornare lectus sit amet est placerat. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. Commodo sed egestas egestas fringilla. Magna fermentum iaculis eu non diam. Bibendum neque egestas congue quisque egestas diam in arcu cursus.
+              The terms student and youth are often used interchangeably, but this leaves out a significant youth population—the most vulnerable. Our strategic vision emphasizes focusing on all youth. This means we are eventually moving away from just school-based organizing work to focus on collective issues that impact youth outside of school. There are a lot of intersections: gun violence prevention, digital literacy, etc. There are also a lot of unique problems that youth who are not in the education system experience, like access to healthy food, career readiness that isn't going to college, and more. In particular, black and brown students face these barriers the most. 
               </p>
             </div>
           </div>
