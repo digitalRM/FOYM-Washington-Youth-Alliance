@@ -14,15 +14,13 @@ const navigation = {
     { name: 'API Status', href: '#' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'Home', href: '/' },
+    { name: 'Action Fund', href: '/action-fund' },
+    { name: 'Bill Tracker', href: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
+    { name: 'Instagram', href: 'https://www.instagram.com/wayouthalliance/' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/washington-youth-alliance/' },
     { name: 'Terms', href: '#' },
   ],
   social: [
@@ -100,7 +98,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-2 xl:gap-8">
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <img
-              className="h-24 relative"
+              className="h-fit max-h-36 w-fit sm:h-24 relative"
               src="/wa-logo.png"
               alt="Company name"
             />
@@ -120,7 +118,7 @@ export default function Footer() {
             <div className='hidden xl:block' />
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Company</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Organization</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
@@ -132,7 +130,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Legal</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">Socials</h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>

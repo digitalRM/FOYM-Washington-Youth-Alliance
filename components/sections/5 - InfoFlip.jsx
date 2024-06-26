@@ -33,10 +33,10 @@ export default async function InfoFlip() {
                   Now, he’s taking the formula state-wide to grow and establish chapters from Grays Harbor to Grant County, amplifying the organizing capacity of students all across the state under the banner of the Washington Youth Alliance. 
                 </p>
                 <div className="flex flex-col sm:flex-row space-y-2 sm:gap-2 lg:items-center sm:space-y-0 mt-6">
-                  <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-black bg-white hover:bg-white/80 transition border border-white/15 backdrop-blur-xl">
+                  <a href="https://secure.actblue.com/donate/wyadonate" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-black bg-white hover:bg-white/80 transition border border-white/15 backdrop-blur-xl">
                     Donate Now
                   </a>
-                  <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white hover:bg-white/10 hover:border-white/10 transition bg-white/15 border border-white/15 backdrop-blur-xl">
+                  <a href="https://secure.actblue.com/donate/wyaaction" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white hover:bg-white/10 hover:border-white/10 transition bg-white/15 border border-white/15 backdrop-blur-xl">
                     Donate to Action Fund
                   </a>
                 </div>

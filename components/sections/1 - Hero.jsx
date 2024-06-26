@@ -16,7 +16,7 @@ export default async function Hero() {
               <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 <span className="font-semibold text-gray-900 bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]">Bill Tracker</span><span className="-ml-2.5">🎉</span>
                 <span className="h-4 w-px bg-gray-900/10" aria-hidden="true" />
-                <a href="#" className="flex items-center gap-x-1">
+                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false"  className="flex items-center gap-x-1">
                   <span className="absolute inset-0" aria-hidden="true" />
                   View our new tool!
                 </a>
@@ -33,10 +33,10 @@ export default async function Hero() {
               futures.
             </p>
             <div className="flex flex-col sm:flex-row space-y-2 sm:gap-2 lg:items-center sm:space-y-0 mt-6 z-[10]">
-              <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] borderbackdrop-blur-xl">
+              <a href="#learn-more" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-white transition bg-gradient-to-br to-[#0C4287] from-[#7268E7] borderbackdrop-blur-xl">
                 Learn More
               </a>
-              <a href="#" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] border-neutral-300/60 transition bg-white/15 border  backdrop-blur-xl shadow-sm">
+              <a href="https://secure.actblue.com/donate/wyadonate" className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] border-neutral-300/60 transition bg-white/15 border  backdrop-blur-xl shadow-sm">
                 Donate to Our Mission
               </a>
             </div>
