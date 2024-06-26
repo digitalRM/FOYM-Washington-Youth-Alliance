@@ -98,7 +98,7 @@ export default function ActionFund() {
             </div>
             <div className="flex flex-col gap-4">
               <p className="leading-8 text-gray-600">
-              The terms student and youth are often used interchangeably, but this leaves out a significant youth population—the most vulnerable. Our strategic vision emphasizes focusing on all youth. This means we are eventually moving away from just school-based organizing work to focus on collective issues that impact youth outside of school. There are a lot of intersections: gun violence prevention, digital literacy, etc. There are also a lot of unique problems that youth who are not in the education system experience, like access to healthy food, career readiness that isn't going to college, and more. In particular, black and brown students face these barriers the most. 
+              The terms student and youth are often used interchangeably, but this leaves out a significant youth population—the most vulnerable. Our strategic vision emphasizes focusing on all youth. This means we are eventually moving away from just school-based organizing work to focus on collective issues that impact youth outside of school. There are a lot of intersections: gun violence prevention, digital literacy, etc. There are also a lot of unique problems that youth who are not in the education system experience, like access to healthy food, career readiness that isn&apos;t going to college, and more. In particular, black and brown students face these barriers the most. 
               </p>
             </div>
           </div>

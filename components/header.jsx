@@ -59,7 +59,7 @@ export default function Header() {
               <DialogHeader>
                 <DialogTitle className={bricolage_grotesque.className}><span className='text-gray-900 text-2xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]'>Contact Us</span></DialogTitle>
                 <DialogDescription>
-                  We'll get back to you as soon as possible.
+                  We&apos;ll get back to you as soon as possible.
                 </DialogDescription>
               </DialogHeader>
 
