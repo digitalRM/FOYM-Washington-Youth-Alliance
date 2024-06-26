@@ -56,7 +56,6 @@ export default function ActionFund() {
                 alt="Image of the white house in the US"
                 width={1280}
                 height={720}
-                objectFit="cover"
                 className="rounded-xl shadow-2xl"
               />
             </div>
@@ -77,12 +76,12 @@ export default function ActionFund() {
             </dl>
           </div>
           <div className="w-full h-full relative rounded-xl my-36">
-            <Image
+            <Image 
               src="/action-fund-2.png"
               alt="Image of the white house in the US"
               width={1280}
               height={720}
-              objectFit="cover"
+
               className="rounded-xl shadow-2xl"
             />
           </div>
