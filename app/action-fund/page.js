@@ -12,7 +12,7 @@ const features = [
   {
     name: 'Local Chapters',
     description:
-      'Youth from ages 14-24 lead local city chapters across Washington State, making decisions aligned with the organization\'s vision and values. Each chapter can have a representative on the official board of directors, paired with an adult mentor',
+      "Youth from ages 14-24 lead local city chapters across Washington State, making decisions aligned with the organization's vision and values. Each chapter can have a representative on the official board of directors, paired with an adult mentor",
   },
   {
     name: 'Diverse Board',
