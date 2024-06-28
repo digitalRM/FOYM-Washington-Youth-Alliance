@@ -6,11 +6,13 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export const metadata = {
+  metadataBase: new URL('https://washington-youth.vercel.app'),
   title: "Washington Youth Alliance",
   description: "The Washington Youth Alliance is a youth-led organization that advocates for youth issues in Washington State.",
   openGraph: {
     title: 'Washington Youth Alliance',
     description: "The Washington Youth Alliance is a youth-led organization that advocates for youth issues in Washington State.",
+    url: 'https://washington-youth.vercel.app',
     siteName: 'Washington Youth Alliance',
     images: [
       {
@@ -24,6 +26,8 @@ export const metadata = {
     type: 'website',
   },
 }
+
+
 
 
 export default function RootLayout({ children }) {
