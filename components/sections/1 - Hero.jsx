@@ -42,19 +42,21 @@ export default async function Hero() {
             </div>
           </div>
 
-          <div className="mt-16 sm:mt-24 lg:mt-4 lg:flex-shrink-0 lg:flex-grow relative sm:w-[600px] lg:w-fit mx-auto">
-          <svg width="100%" height="100%" className="blur-md" viewBox="0 0 253 357"   fill="none"   xmlns="http://www.w3.org/2000/svg" >   <path     d="M118.356 25C299.995 119.094 4.5519 150.026 26.1355 162.951C47.7192 175.875 346.254 189.713 175.493 244.286C60.7184 280.966 78.7617 332 175.493 332"     stroke="url(#paint0_linear_1126_224)"     strokeWidth={49}     strokeLinecap="round"   />   <defs>     <linearGradient       id="paint0_linear_1126_224"       x1="101.843"       y1="13.4377"       x2="101.843"       y2="371.624"       gradientUnits="userSpaceOnUse"     >       <stop stopColor="#14458F" />       <stop offset={1} stopColor="#5168E8" />     </linearGradient>   </defs> </svg>
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-full h-full relative grid grid-cols-4 grid-rows-3 gap-3" >
-                <div className=" bg-white/60 shadow-lg col-span-3 border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 lg:-mt-12 -rotate-3  backdrop-blur-md z-[1]">
+          <div className="mt-16 sm:mt-24 lg:mt-4 lg:flex-shrink-0 lg:flex-grow relative sm:w-[600px] lg:w-fit mx-auto overflow-visible">
+          {/* <svg width="100%" height="100%" className=" z-10 overflow-visible" viewBox="0 0 253 357"   fill="none"   xmlns="http://www.w3.org/2000/svg" >   <path     d="M118.356 25C299.995 119.094 4.5519 150.026 26.1355 162.951C47.7192 175.875 346.254 189.713 175.493 244.286C60.7184 280.966 78.7617 332 175.493 332"     stroke="url(#paint0_linear_1126_224)"     strokeWidth={49}     strokeLinecap="round"   />   <defs>     <linearGradient       id="paint0_linear_1126_224"       x1="101.843"       y1="13.4377"       x2="101.843"       y2="371.624"       gradientUnits="userSpaceOnUse"     >       <stop stopColor="#14458F" />       <stop offset={1} stopColor="#5168E8" />     </linearGradient>   </defs> </svg> */}
+          <svg width="100%" height="100%"   className=" z-10 overflow-visible"     xmlns="http://www.w3.org/2000/svg"          fill="none"       viewBox="0 0 283 387"     >       <g filter="url(#filter0_f_1126_224)">         <path           stroke="url(#paint0_linear_1126_224)"           strokeLinecap="round"           strokeWidth="49"           d="M133.356 40c181.639 94.094-113.804 125.026-92.22 137.951 21.583 12.924 320.118 26.762 149.357 81.335-114.775 36.68-96.731 87.714 0 87.714"         ></path>       </g>       <defs>         <filter           id="filter0_f_1126_224"           width="282.019"           height="386.006"           x="0.482"           y="0.494"           colorInterpolationFilters="sRGB"           filterUnits="userSpaceOnUse"         >           <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>           <feBlend             in="SourceGraphic"             in2="BackgroundImageFix"             result="shape"           ></feBlend>           <feGaussianBlur             result="effect1_foregroundBlur_1126_224"             stdDeviation="7.5"           ></feGaussianBlur>         </filter>         <linearGradient           id="paint0_linear_1126_224"           x1="116.843"           x2="116.843"           y1="28.438"           y2="386.624"           gradientUnits="userSpaceOnUse"         >           <stop stopColor="#14458F"></stop>           <stop offset="1" stopColor="#5168E8"></stop>         </linearGradient>       </defs>     </svg>
+            <div className="absolute inset-0 flex items-center justify-center overflow-visible shadow-none">
+              <div className="w-full h-full relative grid grid-cols-4 grid-rows-3 gap-3 overflow-visible bg-transparent shadow-none" >
+                
+                <div className=" bg-white/60 shadow-lg col-span-3 border rounded-xl h-full p-3 lg:-mt-12 -rotate-3">
                   <Image src="/hero.jpg" alt="card1" height={500} width={500} className="w-full h-full object-cover rounded-lg" />
                 </div>
                 <div />
                 <div />
-                <div className=" bg-white/60 shadow-lg col-span-3 border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 lg:-mt-12 -rotate-3  backdrop-blur-md z-[1]">
+                <div className=" bg-white/60 shadow-lg col-span-3 border rounded-xl h-full p-3 lg:-mt-12 -rotate-3  backdrop-blur-md ">
                   <Image src="/hero-photo2.avif" alt="card1" height={500} width={500} className="w-full h-full object-cover rounded-lg" />
                 </div>
-                <div className=" bg-white/60 shadow-lg col-span-3 border border-neutral-200/70 rounded-xl h-full p-3 sm:hover:z-10 lg:-mt-8 -rotate-3  backdrop-blur-md z-[1]">
+                <div className=" bg-white/60 shadow-lg col-span-3 border  rounded-xl h-full p-3 lg:-mt-8 -rotate-3  backdrop-blur-md">
                   <Image src="/photo-hero2.avif" alt="card1" height={500} width={500} className="w-full h-full object-cover rounded-lg" />
                 </div>
 

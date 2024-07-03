@@ -98,7 +98,7 @@ export default function Footer() {
         <div className="xl:grid xl:grid-cols-2 xl:gap-8">
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
             <img
-              className="h-fit max-h-36 w-fit sm:h-24 relative"
+              className="h-fit max-h-36 max-w-full w-fit sm:w-48 sm:h-24 relative"
               src="/wa-logo.png"
               alt="Company name"
             />
