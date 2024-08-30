@@ -109,7 +109,7 @@ export default function ActionFund() {
               <p className="text-lg font-semibold text-gray-900 mb-1">Important Reminders:</p>
               <ol className="text-gray-600 list-disc list-inside">
                 <li>Student Signature: Sign the application electronically using your FSA ID.</li>
-                <li>Deadlines Matter: Meeting your school's priority deadline, making timely updates, and submitting additional paperwork can significantly impact your financial aid</li>
+                <li>Deadlines Matter: Meeting your school&apos;s priority deadline, making timely updates, and submitting additional paperwork can significantly impact your financial aid</li>
               </ol>      
             </div>
 
