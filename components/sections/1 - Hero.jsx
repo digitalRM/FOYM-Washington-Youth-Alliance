@@ -4,6 +4,16 @@ import Image from "next/image"
 import Header from "../header"
 import { bricolage_grotesque } from "@/components/briFont"
 
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+  DialogFooter
+} from "@/components/ui/dialog"
+
 export default async function Hero() {
   return (
     <div className="relative justify-center h-fit flex items-center overflow-hidden">
@@ -12,16 +22,28 @@ export default async function Hero() {
         <div className="relative isolate">
         <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 sm:pt-12 lg:pt-12 lg:flex lg:items-center lg:gap-x-10 lg:px-8 lg:py-40">
           <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto lg:-mt-24">
-            <div className="flex">
-              <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                <span className="font-semibold text-gray-900 bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]">Bill Tracker</span><span className="-ml-2.5">🎉</span>
+            <Dialog className="flex">
+              <DialogTrigger className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+                <span className="font-semibold text-gray-900 bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]">The Suquamish Tribe</span>
                 <span className="h-4 w-px bg-gray-900/10" aria-hidden="true" />
-                <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false"  className="flex items-center gap-x-1">
+                <div  className="flex items-center gap-x-1">
                   <span className="absolute inset-0" aria-hidden="true" />
-                  View our new tool!
-                </a>
-              </div> 
-            </div>
+                  View our message
+                </div>
+              </DialogTrigger>
+              <DialogContent className="p-6 rounded-lg shadow-lg h-fit w-fit">
+                <DialogHeader>
+                  <DialogTitle><span className={bricolage_grotesque.className}><span className="font-semibold text-gray-900 bg-clip-text text-2xl text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7]">Our Message to the Suquamish Tribe</span></span> </DialogTitle>
+                  <DialogDescription className="pt-2 text-gray-600">
+                    The Washington Youth Alliance would like to thank the Suquamish Tribe for their generous contribution to our mission. The solidarity and support of other organizations continually inspires and enables us to further our mission of youth advocacy.
+                  </DialogDescription>
+                  <DialogFooter className="pt-4">
+                    <Image src="/suquamish-tribe-logo.jpg" alt="Suquamish Tribe Logo" width={200} height={200} className="w-full h-full object-cover rounded-lg" />
+                  </DialogFooter>
+                </DialogHeader>
+              </DialogContent>
+
+            </Dialog>
             <h1 className="mt-10 max-w-[620px] text-3xl md:text-[58px] sm:text-4xl font-extrabold tracking-tight text-gray-900 md:text-6xl bg-clip-text text-transparent bg-gradient-to-br to-[#0C4287] from-[#7268E7] py-1">
               <span className={bricolage_grotesque.className}>
               Fighting For the Youth of Washington State.

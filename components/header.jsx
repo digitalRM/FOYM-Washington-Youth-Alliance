@@ -20,6 +20,7 @@ const navigation = [
   { name: 'Home', href: '/' },
   // { name: 'Team', href: '/team' },
   { name: 'Action Fund', href: '/action-fund' },
+  { name: 'FASFA & WASFA', href: '/fasfa-wasfa' },
   // { name: 'Chapters', href: '/chapters' },
   { name: 'Bill Tracker', href: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false' },
   // { name: 'Contact', href: 'mailto:chetan@washingtonyouthalliance.org' },
