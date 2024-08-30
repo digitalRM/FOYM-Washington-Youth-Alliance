@@ -38,7 +38,7 @@ export default async function Hero() {
                     The Washington Youth Alliance would like to thank the Suquamish Tribe for their generous contribution to our mission. The solidarity and support of other organizations continually inspires and enables us to further our mission of youth advocacy.
                   </DialogDescription>
                   <DialogFooter className="pt-4">
-                    <Image src="/suquamish-tribe-logo.jpg" alt="Suquamish Tribe Logo" width={200} height={200} className="w-full h-full object-cover rounded-lg" />
+                    <Image src="/Suquamish-Tribe-Logo.jpg" alt="Suquamish Tribe Logo" width={200} height={200} className="w-full h-full object-cover rounded-lg" />
                   </DialogFooter>
                 </DialogHeader>
               </DialogContent>
