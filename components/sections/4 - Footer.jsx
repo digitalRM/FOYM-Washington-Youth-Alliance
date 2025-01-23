@@ -1,32 +1,38 @@
-import React from 'react'
+import React from "react";
 
 const navigation = {
   solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+    { name: "Marketing", href: "#" },
+    { name: "Analytics", href: "#" },
+    { name: "Commerce", href: "#" },
+    { name: "Insights", href: "#" },
   ],
   support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+    { name: "Pricing", href: "#" },
+    { name: "Documentation", href: "#" },
+    { name: "Guides", href: "#" },
+    { name: "API Status", href: "#" },
   ],
   company: [
-    { name: 'Home', href: '/' },
-    { name: 'Action Fund', href: '/action-fund' },
-    { name: 'Bill Tracker', href: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false' },
+    { name: "Home", href: "/" },
+    { name: "Action Fund", href: "/action-fund" },
+    {
+      name: "Bill Tracker",
+      href: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false",
+    },
   ],
   legal: [
-    { name: 'Instagram', href: 'https://www.instagram.com/wayouthalliance/' },
-    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/washington-youth-alliance/' },
-    { name: 'Terms', href: '#' },
+    { name: "Instagram", href: "https://www.instagram.com/wayouthalliance/" },
+    {
+      name: "LinkedIn",
+      href: "https://www.linkedin.com/company/washington-youth-alliance/",
+    },
+    { name: "Terms", href: "#" },
   ],
   social: [
     {
-      name: 'Facebook',
-      href: '#',
+      name: "Facebook",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -38,8 +44,8 @@ const navigation = {
       ),
     },
     {
-      name: 'Instagram',
-      href: '#',
+      name: "Instagram",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -51,8 +57,8 @@ const navigation = {
       ),
     },
     {
-      name: 'X',
-      href: '#',
+      name: "X",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path d="M13.6823 10.6218L20.2391 3H18.6854L12.9921 9.61788L8.44486 3H3.2002L10.0765 13.0074L3.2002 21H4.75404L10.7663 14.0113L15.5685 21H20.8131L13.6819 10.6218H13.6823ZM11.5541 13.0956L10.8574 12.0991L5.31391 4.16971H7.70053L12.1742 10.5689L12.8709 11.5655L18.6861 19.8835H16.2995L11.5541 13.096V13.0956Z" />
@@ -60,8 +66,8 @@ const navigation = {
       ),
     },
     {
-      name: 'GitHub',
-      href: '#',
+      name: "GitHub",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -73,8 +79,8 @@ const navigation = {
       ),
     },
     {
-      name: 'YouTube',
-      href: '#',
+      name: "YouTube",
+      href: "#",
       icon: (props) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
           <path
@@ -86,11 +92,11 @@ const navigation = {
       ),
     },
   ],
-}
+};
 
 export default function Footer() {
   return (
-<footer className="" aria-labelledby="footer-heading">
+    <footer className="" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -103,7 +109,10 @@ export default function Footer() {
               alt="Company name"
             />
             <p className="text-sm leading-6 text-gray-600">
-            The Washington Youth Alliance is Fiscally Sponsored by The Feels Foundation. Donations may be tax deductible. The Feels Foundation is a 501 (c)(3) Not-For-Profit Organization. Tax ID #: 86-1747756. Please consult a tax professional.
+              The Washington Youth Alliance is Fiscally Sponsored by The Feels
+              Foundation. Donations may be tax deductible. The Feels Foundation
+              is a 501 (c)(3) Not-For-Profit Organization. Tax ID #: 86-1747756.
+              Please consult a tax professional.
             </p>
             {/* <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -115,14 +124,19 @@ export default function Footer() {
             </div> */}
           </div>
           <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-1 xl:mt-0">
-            <div className='hidden xl:block' />
+            <div className="hidden xl:block" />
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Organization</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">
+                  Organization
+                </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <a
+                        href={item.href}
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                      >
                         {item.name}
                       </a>
                     </li>
@@ -130,11 +144,16 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="mt-10 md:mt-0">
-                <h3 className="text-sm font-semibold leading-6 text-gray-900">Socials</h3>
+                <h3 className="text-sm font-semibold leading-6 text-gray-900">
+                  Socials
+                </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <a href={item.href} className="text-sm leading-6 text-gray-600 hover:text-gray-900">
+                      <a
+                        href={item.href}
+                        className="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                      >
                         {item.name}
                       </a>
                     </li>
@@ -145,11 +164,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-gray-600">&copy; 2024 Washington Youth Alliance. All rights reserved.</p>
+          <p className="text-xs leading-5 text-gray-600">
+            &copy; {new Date().getFullYear()} Washington Youth Alliance. All
+            rights reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
-
-
