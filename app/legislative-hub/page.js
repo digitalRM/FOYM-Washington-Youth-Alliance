@@ -6,6 +6,14 @@ import Link from "next/link";
 
 const bills = [
   {
+    name: "HB 1634 - Student Behavioral Health Support",
+    description:
+      "Provides school districts and public schools with assistance to coordinate comprehensive behavioral health supports for students.",
+    link: "https://docs.google.com/document/d/1mMD534kPOhwrFT96spfP2ogFkhQ4dXKjgWDA2g4oG_A/edit?tab=t.0",
+    sponsors:
+      "Senators Thai, Eslick, Reed, Cortes, Doglio, Goodman, Salahuddin, Bergquist, Scott, Parshley, Zahn, Nance, and Shavers",
+  },
+  {
     name: "HB 1163/SB 5140 - Firearm Purchase Requirements",
     description:
       "Enhances requirements for firearm purchases by implementing a permit system, requiring safety training with live-fire exercises, and strengthening background checks. Includes annual permit reviews and dealer notification systems.",
@@ -105,9 +113,11 @@ export default function LegislativeHub() {
           </h1>
 
           {/* Lobby Day Section */}
-          <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-6">Youth Day of Action</h2>
-            <div className="flex justify-center bg-[url('/wall-3.png')] bg-cover bg-center bg-no-repeat shadow-white flex-col p-4 rounded-2xl">
+          <section className="mb-20 overflow-visible">
+            <h2 className="text-3xl font-bold mb-6 tracking-tight">
+              Youth Day of Action
+            </h2>
+            <div className="flex justify-center bg-[url('/wall-3.png')] bg-cover bg-right overflow-visible bg-no-repeat shadow-white flex-col p-4 rounded-2xl">
               <h3 className="text-2xl font-bold mb-0 text-white">
                 <span className={bricolage_grotesque.className}>
                   March 5th, 2025
@@ -128,10 +138,143 @@ export default function LegislativeHub() {
             </div>
           </section>
 
+          {/* Bill Tracker Embed */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-6 tracking-tight">
+              Live Bill Tracker
+            </h2>
+            <div className="w-full aspect-[16/9] relative p-4 bg-white rounded-3xl border">
+              <iframe
+                src="https://docs.google.com/spreadsheets/u/2/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false"
+                className="w-full h-full border rounded-xl "
+                title="Bill Tracker Spreadsheet"
+              />
+            </div>
+          </section>
+
+          {/* Take Action Section */}
+          <section className="mb-20">
+            <h2 className="text-3xl font-bold mb-6 tracking-tight">
+              Take Action!
+            </h2>
+            <div className="space-y-4">
+              <div className="border bg-white rounded-2xl p-6">
+                <h3 className="text-xl font-semibold mb-4">
+                  How Bills Move Through Committees
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Bills are assigned to committees based on their subject matter
+                  (e.g., Early Learning and K-12 Education). Committees hold
+                  public meetings to gather testimony and comments from
+                  constituents, which helps legislators decide whether to:
+                </p>
+                <ul className="list-disc list-inside text-gray-600 ml-4 space-y-2">
+                  <li>Pass the bill with or without changes</li>
+                  <li>Create and pass a new version of the bill</li>
+                  <li>Reject the bill</li>
+                  <li>Take no action</li>
+                </ul>
+              </div>
+
+              <div className="border bg-white rounded-2xl p-6">
+                <h3 className="text-xl font-semibold mb-4">
+                  Sign-in Pro Before a Committee Hearing
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Show your support by signing in "Pro" before committee
+                  hearings. Important notes:
+                </p>
+                <ul className="list-disc list-inside text-gray-600 ml-4 space-y-2">
+                  <li>Available only when a committee hearing is scheduled</li>
+                  <li>Closes 1 hour before the hearing start time</li>
+                  <li>
+                    Check the bill tracker above for upcoming committee meetings
+                  </li>
+                </ul>
+                <div className="mt-4 bg-gray-50 p-4 rounded-lg border">
+                  <p className="text-gray-600 font-medium mb-3">
+                    How to Sign In:
+                  </p>
+                  <ol className="list-decimal list-inside text-gray-600 ml-4 space-y-2">
+                    <li>
+                      From the bill tracker, click through to the bill's "home
+                      page"
+                    </li>
+                    <li>Click on "Sign Up to Testify..."</li>
+                    <li>
+                      Select "I would like my position noted for the legislative
+                      record"
+                    </li>
+                    <li>
+                      Fill out required fields, selecting "Pro" and noting your
+                      affiliation with the Washington Youth Alliance Action Fund
+                    </li>
+                  </ol>
+                </div>
+              </div>
+
+              <div className="border bg-white rounded-2xl p-6">
+                <h3 className="text-xl font-semibold mb-4">
+                  Provide Testimony
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Testimony is your opportunity to highlight issues, share your
+                  story, and emphasize why a bill is the right solution. You can
+                  provide:
+                </p>
+                <ul className="list-disc list-inside text-gray-600 ml-4 space-y-2 mb-4">
+                  <li>
+                    Written testimony (submit up to 24 hours after hearing
+                    start)
+                  </li>
+                  <li>Remote testimony (sign-up closes 1 hour before)</li>
+                  <li>Live testimony (sign-up closes 1 hour before)</li>
+                </ul>
+
+                <div className="bg-gray-50 p-4 rounded-lg mb-4 border">
+                  <p className="font-medium mb-2">Sample Testimony Template:</p>
+                  <div className="text-gray-600 italic">
+                    "My name is ______, I am a student of ____ School in _____
+                    County. The rise of mental and behavioral issues across the
+                    country for youth is palpable, but the same cannot be said
+                    for how we address their needs. Our students and teachers in
+                    Washington face the challenge of filling in the gaps for
+                    mental and behavioral health support. Yet the lack of
+                    access, resources, and coordination for evidence-based
+                    strategies leaves teachers, staff, and parents without an
+                    effective support system. Unfortunately, this fragmented
+                    support system leaves students vulnerable to strategies that
+                    can harm rather than accurately reflect their needs. SB 5126
+                    is key to addressing the needs of our schools. A statewide
+                    network for mental and behavioral support will ensure that
+                    all students in Washington receive the support they need. I
+                    ask you to vote in support of SB 5126."
+                  </div>
+                </div>
+
+                <div className="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                  <p className="text-blue-800">
+                    Want to testify on behalf of the Washington Youth Alliance
+                    Action Fund? Contact{" "}
+                    <a
+                      href="mailto:kenia@washingtonyouthalliance.org"
+                      className="text-blue-900 hover:text-blue-950 underline"
+                    >
+                      kenia@washingtonyouthalliance.org
+                    </a>{" "}
+                    for materials and training.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           {/* Bill Tracker Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-6">Bill Tracker</h2>
-            <div className="grid gap-6 md:grid-cols-2">
+            <h2 className="text-3xl font-bold mb-6 tracking-tight">
+              Bill Tracker
+            </h2>
+            <div className="grid gap-4 md:grid-cols-2">
               {bills.map((bill) => (
                 <div key={bill.name} className="border bg-white rounded-xl p-6">
                   <h3 className="font-semibold text-xl mb-2">{bill.name}</h3>
@@ -153,8 +296,10 @@ export default function LegislativeHub() {
 
           {/* Legislative Resources Section */}
           <section className="mb-20">
-            <h2 className="text-3xl font-bold mb-6">Legislative Resources</h2>
-            <div className="border bg-white rounded-xl p-6">
+            <h2 className="text-3xl font-bold tracking-tight mb-6">
+              Legislative Resources
+            </h2>
+            <div className="border bg-white rounded-2xl p-6">
               <p className="mb-4">
                 For the most up-to-date information on the legislative session,
                 bills, and committee hearings, visit the Washington State
