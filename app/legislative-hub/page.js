@@ -197,17 +197,18 @@ export default function LegislativeHub() {
                   </p>
                   <ol className="list-decimal list-inside text-gray-600 ml-4 space-y-2">
                     <li>
-                      From the bill tracker, click through to the bill's "home
-                      page"
+                      From the bill tracker, click through to the bill's
+                      &quot;home page&quot;
                     </li>
-                    <li>Click on "Sign Up to Testify..."</li>
+                    <li>Click on &quot;Sign Up to Testify...&quot;</li>
                     <li>
-                      Select "I would like my position noted for the legislative
-                      record"
+                      Select &quot;I would like my position noted for the
+                      legislative record&quot;
                     </li>
                     <li>
-                      Fill out required fields, selecting "Pro" and noting your
-                      affiliation with the Washington Youth Alliance Action Fund
+                      Fill out required fields, selecting &quot;Pro&quot; and
+                      noting your affiliation with the Washington Youth Alliance
+                      Action Fund
                     </li>
                   </ol>
                 </div>
@@ -234,21 +235,22 @@ export default function LegislativeHub() {
                 <div className="bg-gray-50 p-4 rounded-lg mb-4 border">
                   <p className="font-medium mb-2">Sample Testimony Template:</p>
                   <div className="text-gray-600 italic">
-                    "My name is ______, I am a student of ____ School in _____
-                    County. The rise of mental and behavioral issues across the
-                    country for youth is palpable, but the same cannot be said
-                    for how we address their needs. Our students and teachers in
-                    Washington face the challenge of filling in the gaps for
-                    mental and behavioral health support. Yet the lack of
-                    access, resources, and coordination for evidence-based
-                    strategies leaves teachers, staff, and parents without an
-                    effective support system. Unfortunately, this fragmented
-                    support system leaves students vulnerable to strategies that
-                    can harm rather than accurately reflect their needs. SB 5126
-                    is key to addressing the needs of our schools. A statewide
-                    network for mental and behavioral support will ensure that
-                    all students in Washington receive the support they need. I
-                    ask you to vote in support of SB 5126."
+                    &quot;My name is ______, I am a student of ____ School in
+                    _____ County. The rise of mental and behavioral issues
+                    across the country for youth is palpable, but the same
+                    cannot be said for how we address their needs. Our students
+                    and teachers in Washington face the challenge of filling in
+                    the gaps for mental and behavioral health support. Yet the
+                    lack of access, resources, and coordination for
+                    evidence-based strategies leaves teachers, staff, and
+                    parents without an effective support system. Unfortunately,
+                    this fragmented support system leaves students vulnerable to
+                    strategies that can harm rather than accurately reflect
+                    their needs. SB 5126 is key to addressing the needs of our
+                    schools. A statewide network for mental and behavioral
+                    support will ensure that all students in Washington receive
+                    the support they need. I ask you to vote in support of SB
+                    5126.&quot;
                   </div>
                 </div>
 
