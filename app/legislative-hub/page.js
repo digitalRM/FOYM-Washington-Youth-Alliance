@@ -181,8 +181,8 @@ export default function LegislativeHub() {
                   Sign-in Pro Before a Committee Hearing
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  Show your support by signing in "Pro" before committee
-                  hearings. Important notes:
+                  Show your support by signing in &quot;Pro&quot; before
+                  committee hearings. Important notes:
                 </p>
                 <ul className="list-disc list-inside text-gray-600 ml-4 space-y-2">
                   <li>Available only when a committee hearing is scheduled</li>
@@ -197,7 +197,7 @@ export default function LegislativeHub() {
                   </p>
                   <ol className="list-decimal list-inside text-gray-600 ml-4 space-y-2">
                     <li>
-                      From the bill tracker, click through to the bill's
+                      From the bill tracker, click through to the bill&apos;s
                       &quot;home page&quot;
                     </li>
                     <li>Click on &quot;Sign Up to Testify...&quot;</li>
