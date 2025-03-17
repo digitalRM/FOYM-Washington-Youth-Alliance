@@ -4,6 +4,12 @@ import Footer from "@/components/sections/4 - Footer";
 import Image from "next/image";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Washington Youth Alliance | Legislative Hub",
+  description:
+    "Stay informed about youth-focused legislation in Washington State. Track bills, find advocacy resources, and learn how to get involved in the legislative process.",
+};
+
 const bills = [
   {
     name: "HB 1634 - Student Behavioral Health Support",

@@ -3,6 +3,12 @@ import { bricolage_grotesque } from "@/components/briFont";
 import Image from "next/image";
 import Footer from "@/components/sections/4 - Footer";
 
+export const metadata = {
+  title: "Washington Youth Alliance | Action Fund",
+  description:
+    "Learn about the Washington Youth Alliance Action Fund, our initiatives, and how we're making a difference in youth advocacy across Washington State.",
+};
+
 const features = [
   {
     name: "Youth-Led Organization",
