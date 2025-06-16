@@ -60,7 +60,7 @@ const flowChartItems = [
   },
   {
     situation:
-      "A friend that's great at making social media content + Your knowledge/research on gun violence prevention",
+      "A friend that&apos;s great at making social media content + Your knowledge/research on gun violence prevention",
     action: "Make space for youth to share their stories",
   },
   {
@@ -69,7 +69,7 @@ const flowChartItems = [
       "Mobilize parents and students to get their input in decision-making spaces as early as possible",
   },
   {
-    situation: "WYA's Lobby Day is coming up",
+    situation: "WYA&apos;s Lobby Day is coming up",
     action:
       "Invite your peers to get informed and involved during the legislative session",
   },
@@ -130,9 +130,10 @@ export default function Chapters() {
               <p className="text-gray-600 mb-6">
                 Chapters can engage in many activities based on your specific
                 interests in social justice, group strengths, current issues,
-                and/or WYA's engagement with the community. Think: "how can I
-                combine my personal talents, my passions, and what the
-                community/state needs?" to know where to get started.
+                and/or WYA&apos;s engagement with the community. Think:
+                &quot;how can I combine my personal talents, my passions, and
+                what the community/state needs?&quot; to know where to get
+                started.
               </p>
             </div>
 
@@ -232,7 +233,9 @@ export default function Chapters() {
             <h2 className="text-3xl font-bold mb-6 tracking-tight">
               Start a Chapter
             </h2>
-            <p className="text-gray-600 mb-6">Don't see a chapter near you?</p>
+            <p className="text-gray-600 mb-6">
+              Don&apos;t see a chapter near you?
+            </p>
 
             <div className="space-y-4">
               <div className="border bg-white rounded-2xl p-6">
@@ -262,8 +265,8 @@ export default function Chapters() {
                   No Experience Needed
                 </h3>
                 <p className="text-gray-600">
-                  You don't need to be a pro to get started, especially with
-                  grassroots organizing. This type of organizing includes
+                  You don&apos;t need to be a pro to get started, especially
+                  with grassroots organizing. This type of organizing includes
                   everyday people like you! Maybe you noticed there is no mental
                   health support at your school. Or maybe you heard of a bill
                   that can affect your safety. WYA works with you to provide the
