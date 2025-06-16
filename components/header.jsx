@@ -22,7 +22,7 @@ const navigation = [
   { name: "Action Fund", href: "/action-fund" },
   { name: "FASFA & WASFA", href: "/fasfa-wasfa" },
   { name: "Legislative Hub", href: "/legislative-hub" },
-  // { name: 'Chapters', href: '/chapters' },
+  { name: "Chapters", href: "/chapters" },
   // {
   //   name: "Bill Tracker",
   //   href: "https://docs.google.com/spreadsheets/d/e/2PACX-1vQJP-KuhMXM6202X7jx6l_p7Y6r-RAYfozYmVhxaWn91bLX3rH1MMphuci_g_9M_zUX22FJ9QoC3R2h/pubhtml?widget=true&headers=false",
@@ -47,7 +47,7 @@ export default function Header() {
             alt="Washington Youth Alliance Logo"
           />
         </a>
-        <div className="flex lg:hidden">
+        <div className="flex xl:hidden">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
@@ -57,7 +57,7 @@ export default function Header() {
             <Menu className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-8">
+        <div className="hidden xl:flex xl:gap-x-8">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -115,7 +115,7 @@ export default function Header() {
             </DialogContent>
           </Dia>
         </div>
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
+        <div className="hidden xl:flex xl:flex-1 xl:justify-end">
           <a
             href="https://secure.actblue.com/donate/wyaaction"
             className=" inline-flex items-center justify-center px-4 py-2.5 font-semibold text-sm rounded-lg text-[#0C4287] backdrop-blur-xl border shadow-sm"
@@ -126,7 +126,7 @@ export default function Header() {
       </nav>
       <Dialog
         as="div"
-        className="lg:hidden"
+        className="xl:hidden"
         open={mobileMenuOpen}
         onClose={setMobileMenuOpen}
       >

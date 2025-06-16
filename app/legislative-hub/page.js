@@ -121,9 +121,9 @@ export default function LegislativeHub() {
           {/* Lobby Day Section */}
           <section className="mb-20 overflow-visible">
             <h2 className="text-3xl font-bold mb-6 tracking-tight">
-              Youth Day of Action
+              2025 Youth Day of Action
             </h2>
-            <div className="flex justify-center bg-[url('/wall-3.png')] bg-cover bg-right overflow-visible bg-no-repeat shadow-white flex-col p-4 rounded-2xl">
+            {/* <div className="flex justify-center bg-[url('/wall-3.png')] bg-cover bg-right overflow-visible bg-no-repeat shadow-white flex-col p-4 rounded-2xl">
               <h3 className="text-2xl font-bold mb-0 text-white">
                 <span className={bricolage_grotesque.className}>
                   March 5th, 2025
@@ -141,6 +141,36 @@ export default function LegislativeHub() {
               >
                 Register Now
               </Link>
+            </div> */}
+
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="bg-white shadow-sm border rounded-2xl p-3 backdrop-blur-md">
+                <Image
+                  src="/1.jpg"
+                  alt="Youth advocates at the Capitol"
+                  width={400}
+                  height={300}
+                  className="w-full h-64 object-cover rounded-lg border"
+                />
+              </div>
+              <div className="bg-white shadow-sm border rounded-2xl p-3 backdrop-blur-md">
+                <Image
+                  src="/2.jpg"
+                  alt="Students meeting with legislators"
+                  width={400}
+                  height={300}
+                  className="w-full h-64 object-cover rounded-lg border"
+                />
+              </div>
+              <div className="bg-white shadow-sm border rounded-2xl p-3 backdrop-blur-md">
+                <Image
+                  src="/3.jpeg"
+                  alt="Group photo at the Capitol"
+                  width={400}
+                  height={300}
+                  className="w-full h-64 object-cover rounded-lg border"
+                />
+              </div>
             </div>
           </section>
 

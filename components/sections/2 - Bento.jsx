@@ -1,60 +1,70 @@
-'use server'
+"use server";
 
-import Image from "next/image"
-import BentoFlip from "../bentoFlip"
-import { bricolage_grotesque } from "../briFont"
+import Image from "next/image";
+import BentoFlip from "../bentoFlip";
+import { bricolage_grotesque } from "../briFont";
 
 const timeline = [
   {
-    name: 'Grow Our Organization',
+    name: "Grow Our Organization",
     description:
-      'We are looking to grow our geographic footprint and create chapters all across Washington.',
-    date: 'Aug 2021',
-    image: '/card1.png',
-    dateTime: '2021-08',
+      "We are looking to grow our geographic footprint and create chapters all across Washington.",
+    date: "Aug 2021",
+    image: "/card1.png",
+    dateTime: "2021-08",
   },
   {
-    name: 'Hire Staff and Advisors',
+    name: "Hire Staff and Advisors",
     description:
-      'We are planning on hiring professional staff and advisors to help us with our mission.',
-    date: 'Dec 2021',
-    image: '/card2.png',
-    dateTime: '2021-12',
+      "We are planning on hiring professional staff and advisors to help us with our mission.",
+    date: "Dec 2021",
+    image: "/card2.png",
+    dateTime: "2021-12",
   },
   {
-    name: 'Year Round Lobbying Effort',
+    name: "Year Round Lobbying Effort",
     description:
-      'We want to establish a year round lobbying effort for the bills we support through our C4.',
-    date: 'Feb 2022',
-    image: '/card3.png',
-    dateTime: '2022-02',
+      "We want to establish a year round lobbying effort for the bills we support through our C4.",
+    date: "Feb 2022",
+    image: "/card3.png",
+    dateTime: "2022-02",
   },
   {
-    name: 'Advance Youth Policies',
+    name: "Advance Youth Policies",
     description:
-      'We plan to support and advance policies that benefit young people in Washington State.',
-    date: 'Dec 2022',
-    image: '/card4.png',
-    dateTime: '2022-12',
+      "We plan to support and advance policies that benefit young people in Washington State.",
+    date: "Dec 2022",
+    image: "/card4.png",
+    dateTime: "2022-12",
   },
-]
+];
 
 export default async function Bento() {
   return (
     <div id="learn-more" className="py-0 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h1 className="text-xl font-semibold leading-10 py-6 tracking-tight text-blue-950 sm:text-xl sm:leading-none md:text-2xl"><span className={bricolage_grotesque.className}>Our Goals For 2024</span></h1>
+        <h1 className="text-xl font-semibold leading-10 py-6 tracking-tight text-blue-950 sm:text-xl sm:leading-none md:text-2xl">
+          <span className={bricolage_grotesque.className}>
+            Our Goals For {new Date().getFullYear()}
+          </span>
+        </h1>
         <div className="w-full h-fit grid sm:grid-cols-2 grid-cols-1 md:grid-cols-4 grid-rows-1 gap-2 max-w-7xl">
           {timeline.map((item) => (
-            <BentoFlip key={item.name}  name={item.name} description={item.description} image={item.image} />
+            <BentoFlip
+              key={item.name}
+              name={item.name}
+              description={item.description}
+              image={item.image}
+            />
           ))}
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-{/* <Bento />
+{
+  /* <Bento />
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h1 className="text-xl font-semibold leading-10 py-6 tracking-tight text-gray-900 sm:text-xl sm:leading-none md:text-2xl">Our Goals For 2024</h1>
@@ -74,4 +84,5 @@ export default async function Bento() {
             ))}
           </div>
         </div>
-      </div> */}
+      </div> */
+}
