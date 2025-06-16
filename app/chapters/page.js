@@ -299,11 +299,11 @@ export default function Chapters() {
                 Sign up for updates
               </h3>
               <p className="text-gray-600">
-                Click on the link to start a chapter. Choose the "Connect with a
-                WYA Chapter" option to get added to their contact list (events,
-                volunteer opportunities, member meetings, etc.). Please refer to
-                the contact us form in our home page to receive all other WYA
-                updates.
+                Click on the link to start a chapter. Choose the &quot;Connect
+                with a WYA Chapter&quot; option to get added to their contact
+                list (events, volunteer opportunities, member meetings, etc.).
+                Please refer to the contact us form in our home page to receive
+                all other WYA updates.
               </p>
             </div>
           </section>
