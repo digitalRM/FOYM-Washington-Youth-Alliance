@@ -60,7 +60,7 @@ const flowChartItems = [
   },
   {
     situation:
-      "A friend that&apos;s great at making social media content + Your knowledge/research on gun violence prevention",
+      "A friend that's great at making social media content + Your knowledge/research on gun violence prevention",
     action: "Make space for youth to share their stories",
   },
   {
@@ -69,7 +69,7 @@ const flowChartItems = [
       "Mobilize parents and students to get their input in decision-making spaces as early as possible",
   },
   {
-    situation: "WYA&apos;s Lobby Day is coming up",
+    situation: "WYA's Lobby Day is coming up",
     action:
       "Invite your peers to get informed and involved during the legislative session",
   },
