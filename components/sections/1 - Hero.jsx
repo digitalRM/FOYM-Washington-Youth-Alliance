@@ -152,7 +152,7 @@ export default async function Hero() {
               </svg>
               <div className="absolute inset-0 flex items-center justify-center overflow-visible shadow-none">
                 <div className="w-full h-full relative grid grid-cols-4 grid-rows-3 gap-3 overflow-visible bg-transparent shadow-none">
-                  <div className=" bg-white/60 shadow-lg col-span-3 border rounded-xl h-full p-3 lg:-mt-12 -rotate-3">
+                  <div className=" bg-white/60 shadow-lg col-span-3 border rounded-2xl h-full p-3 lg:-mt-12 -rotate-3">
                     <Image
                       src="/hero.jpg"
                       alt="Youth advocacy meeting"
@@ -163,7 +163,7 @@ export default async function Hero() {
                   </div>
                   <div />
                   <div />
-                  <div className=" bg-white/60 shadow-lg col-span-3 border rounded-xl h-full p-3 lg:-mt-12 -rotate-3  backdrop-blur-md ">
+                  <div className=" bg-white/60 shadow-lg col-span-3 border rounded-2xl h-full p-3 lg:-mt-12 -rotate-3  backdrop-blur-md ">
                     <Image
                       src="/3.jpeg"
                       alt="Youth organizing event"
@@ -172,7 +172,7 @@ export default async function Hero() {
                       className="w-full h-full object-cover rounded-lg"
                     />
                   </div>
-                  <div className=" bg-white/60 shadow-lg col-span-3 border  rounded-xl h-full p-3 lg:-mt-8 -rotate-3  backdrop-blur-md">
+                  <div className=" bg-white/60 shadow-lg col-span-3 border  rounded-2xl h-full p-3 lg:-mt-8 -rotate-3  backdrop-blur-md">
                     <Image
                       src="/4.jpg"
                       alt="Community engagement"
